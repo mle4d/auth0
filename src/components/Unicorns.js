@@ -11,7 +11,7 @@ function Unicorns({ unicornss }) {
 
   return (
     <ul>
-      {unicronElements}
+      {unicornElements}
     </ul>
   );
 }
