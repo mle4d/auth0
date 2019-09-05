@@ -25,6 +25,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.2.3",
+    "@babel/polyfill": "^7.4.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
