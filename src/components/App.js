@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth0 } from '../components/Auth0Provider';
-import allUnicorns from '../containers/allUnicorns';
+import AllUnicorns from '../containers/AllUnicorns';
 
 export default function App() {
   const { isAuthenticated, user, auth0Client } = useAuth0();
@@ -12,7 +12,7 @@ export default function App() {
     <>
     {!isAuthenticated && <button onClick={login}>Login</button>}
     {isAuthenticated && <button onClick={logout}>Log Out</button>}
-    <allUnicorns />
+    <AllUnicorns />
     </>
   );
 }

@@ -1,1 +1,1 @@
-export const getUnicorns = state => state.unicorns;
+export const getUnicorn = state => state.unicorn;

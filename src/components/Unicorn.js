@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useAuth0 } from '../Auth0Provider';
+import { useAuth0 } from '../components/Auth0Provider';
 
 function Unicorn({ unicorn }) {
   const { isAuthenticated, loading, user } = useAuth0();

@@ -19,7 +19,7 @@ function Unicorns({ unicorns }) {
 Unicorns.propTypes = {
   unicorns: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired
-  })).isRequired
+  }))
 };
 
 export default Unicorns;
